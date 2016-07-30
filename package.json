@@ -1,0 +1,17 @@
+{
+  "name": "trace-example-api",
+  "description": "Trace Example API",
+  "version": "1.0.0",
+  "author": "Joyent (joyent.com)",
+  "private": true,
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "bunyan": "^1.8.1",
+    "eslint": "1.10.1",
+    "opentracing": "^0.10.3",
+    "restify": "^4.1.1",
+    "restify-clients": "git+https://github.com/joshwilsdon/restify-clients.git#master",
+    "triton-tracer": "git+https://github.com/joshwilsdon/triton-tracer.git#master"
+  },
+  "license": "MPL-2.0"
+}
